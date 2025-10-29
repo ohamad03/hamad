@@ -1,0 +1,26 @@
+Package: hamad
+Title: Exploratory Data Analysis and Visualization Helpers
+Version: 0.0.0.9000
+Authors@R: 
+    person("Omar", "Hamad", 
+           email = "ohamad@usf.edu", 
+           role = c("aut", "cre"))
+Description: A collection of utility functions for exploratory data analysis,
+    data cleaning, and visualization. Includes helpers for quick summaries,
+    missing data diagnostics, and custom plotting functions that streamline
+    common analytical workflows.
+Depends: R (>= 3.1.2)
+Imports:
+    ggplot2,
+    dplyr,
+    tidyr
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/omarhamad/hamad
+BugReports: https://github.com/omarhamad/hamad/issues
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+RoxygenNote: 7.3.3
